@@ -88,3 +88,33 @@ text-transform: capitalize;
 }
 .single-image img{}
 
+/* footer section */
+footer{
+  background-color:#F5F5FA ;
+  padding-top: 50px;
+}
+
+.footer-item-main{
+  display: flex;
+}
+.footer-item{
+  width: 25%;
+}
+
+.footer-item img{}
+.footer-item p{ 
+  padding-right: 50px;
+}
+
+.footer-item h5{
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  color: rgb(42, 40, 40);
+}
+.footer-item li{
+  list-style: none;
+  padding: 10px 0 10px 0  ;
+}
+.footer-item li a{
+  text-decoration: none;
+}
