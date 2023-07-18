@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon/favicon-32x32.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon/favicon-16x16.ico">
+    <link rel="apple-touch-icon" sizes="76x76" href="Images/favicon/apple-touch-icon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
     <title>SASSLAND</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -15,10 +24,10 @@
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="#Blog-One">Blog One</a></li>
                     <li><a href="">Privecy</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Tutorials</a></li>
+                    <li><a href="#Blog-Five">Blog Five</a></li>
+                    <li><a href="#Footer">Footer</a></li>
                 </ul>
             </nav>
          </div>
@@ -36,7 +45,7 @@
 <!-- Main Section Start -->
 <main class="container">
     <div class="blog-item">
-            <div class="single-item">
+            <div id="Blog-One" class="single-item">
                 <div class="single-text">
                     <div class="text"> 
                         <img src="Images/1.png" alt="">
@@ -98,13 +107,16 @@
         <div class="text"> 
             <img src="Images/4.png" alt="">
             <h1>With efficiency unlock more opportuinity</h1>
-            <p>Lorem ipsum dolor sit amet, adipisicing elit. Excepturi, voluptates! Ut ducimus deleniti nemo, voluptate quisquam atque alias iure perferendis quo provident iusto repudiandae rerum, porro quis natus laboriosam? Odit?</p>
+            <p>Lorem ipsum dolor sit amet, adipisicing elit. Excepturi,
+                 voluptates! Ut ducimus deleniti nemo, voluptate quisquam 
+                 atque alias iure perferendis quo provident iusto repudiandae
+                  rerum, porro quis natus laboriosam? Odit?</p> <button type="button" onclick="#">Get in touch</button>
         </div>
     </div>                
 </div>
 
 <!-- blog five -->
-<div class="single-item">
+<div id="Blog-Five" class="single-item">
     <div class="single-text">
         <div class="text"> 
             <img src="Images/5.png" alt="">
@@ -119,7 +131,7 @@
     </div>
 </main>
 <!-- fotter -->
-<footer>
+<footer id="Footer">
     <div class="container">
         <div class="footer-item-main">
             <div class="footer-item">
@@ -127,6 +139,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat, 
                     rerum eaque cum recusandae a dolor repellendus non asperiores tenetur nostrum obcaecati voluptatem ratione, 
                     officiis rem atque, dolore animi numquam.</p>
+                   
             </div>
             <div class="footer-item">
                 <h5>About Us</h5>
@@ -156,6 +169,17 @@
         <img src="Images/footer_bg.png" alt="">
     </div>
 </footer>
+
+
+
+
+
+
+
+<!-- BUTTON -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-sharp fa-solid fa-angle-up"></i></button>
+<script src="js/app.js"></script>
+<script src="https://kit.fontawesome.com/2ed0c79134.js" crossorigin="anonymous"></script>
 
 
 
